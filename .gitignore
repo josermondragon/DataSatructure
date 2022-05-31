@@ -1,0 +1,82 @@
+OK># Operating System Files
+
+
+
+*.DS_Store
+Thumbs.db
+*.sw?
+.#*
+*#
+*~
+*.sublime-*
+
+
+
+# Build Artifacts
+
+
+
+.gradle/
+build/
+target/
+bin/
+out/
+dependency-reduced-pom.xml
+
+
+
+# Eclipse Project Files
+
+
+
+.classpath
+.project
+.metadata
+.loadpath
+bin/
+.settings/
+
+
+
+# IntelliJ IDEA Files
+
+
+
+*.iml
+*.ipr
+*.iws
+*.idea
+
+
+
+.vscode/
+README.html
+08:56 AM
+(Dao) Khammadao Lee: # Compiled class file
+*.class
+
+
+
+# Log file
+*.log
+
+
+
+# BlueJ files
+*.ctxt
+
+
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
