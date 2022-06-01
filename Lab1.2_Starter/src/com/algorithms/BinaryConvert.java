@@ -1,6 +1,10 @@
 package com.algorithms;
 
 public class BinaryConvert {
+
+    public static final int  OCTAL_NUMBER_BASE = 8;
+
+
     public static void main(String[] args){
         int number = convertFromBinary("100101");
         System.out.println("Number for binary 100101: " + number);
@@ -36,7 +40,7 @@ public class BinaryConvert {
             System.out.println("i is " + i);
             int num = Integer.parseInt(Character.toString(octal.charAt(i)));
             result += num*conversion;
-            conversion *= 8;
+            conversion *= OCTAL_NUMBER_BASE;
         }
         return result;
     }
